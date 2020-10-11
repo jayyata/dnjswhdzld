@@ -1,0 +1,104 @@
+body {
+	margin: 0 auto;
+	background-color: #f2f2f2;
+	border: 1px solid #eaeaea;
+	overflow-x: hidden;
+	font-family: Malgun Gothic, Apple SD Gothic Neo, '돋움', '굴림', Arial,
+		sans-serif;
+	height:768px;
+}
+.header{
+        display: flex;
+        align-items: center;
+        height: 60px;
+        font-size: 20px;
+        
+        box-sizing: border-box;
+        border-bottom: 1px solid grey;
+}
+.headerWrap {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.mainWrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   
+    height: 100%;
+    padding-top: 60px;
+}
+
+#main-contents{
+	margin-left: 50px;
+	width: 70%;
+}
+.input-div {
+	display: flex;
+	flex-direction: row;
+	height: 70px;
+	width: 800px;
+	align-items: center;
+}
+
+select {
+	width: 100px;
+	height: 35px;
+	border: 1px solid #e1e1e2;
+}
+#excel-down {
+	border: 0;
+	text-decoration: underline;
+	color: darkviolet;
+}
+
+.search-keyword {
+	height: 35px;
+    width: 200px;
+    margin-left: 20px;
+    border: 1px solid #e1e1e2;
+}
+
+.submit-bt {
+	width: 100px;
+	height: 35px;
+	border: 1px solid #e1e1e2;
+}
+
+tr {
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+	height: 40px;
+}
+
+.useStatistics-table th {
+	vertical-align: middle;
+	font-size: 13px;
+	background-color: #f9f9fb;
+	color: blueviolet;
+	font-weight: normal;
+	border: 1px solid #e1e1e2;
+}
+
+.useStatistics-table td {
+	font-size: 13px;
+    background-color: #f9f9fb;
+    font-weight: normal;
+    border: 1px solid #e1e1e2;
+	
+}
+
+.useStatistics-table {
+	width: 100%;
+	display: table;
+	min-width:600px;
+	empty-cells: show;
+	border-collapse: collapse;
+	text-align : center;
+	border-color: grey;
+}
